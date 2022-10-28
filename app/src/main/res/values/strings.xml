@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Sunflower Player</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="create_backup">Create Backup</string>
+    <string name="load_backup">Load Backup</string>
+    <string name="clear_database">Clear Database</string>
+    <string name="default_dir">Default Directory</string>
+    <string name="reset_default_dir">Reset Default Directory</string>
+
+    <string name="database_name">tags-db</string>
+    <string name="default_dir_key">DEFAULT_DIR</string>
+    <string name="clip_key">clip</string>
+    <string name="default_channel_id">default_channel</string>
+
+    <string name="player_service">PlayerService</string>
+    <string name="channel_name">Channel Name</string>
+
+    <string name="title">Title</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+
+    <string name="edit_tags">Edit Tags</string>
+    <string name="album_same_as_the_title">Set Album Same as The Title</string>
+    <string name="find_album">Find Album</string>
+    <string name="correction_interrupted">Correction Interrupted!</string>
+    <string name="album_already_same_as_the_title">Album already same as the title!</string>
+    <string name="nothing_to_change">Nothing to change!</string>
+    <string name="some_field_is_empty">Some field is empty!</string>
+
+    <string name="choose_directory">Choose a directory</string>
+    <string name="choose_file">Choose a file</string>
+    <string name="are_you_sure">Are You Sure?</string>
+    <string name="database_cleared">Database has been cleared</string>
+    <string name="default_string">Default</string>
+    <string name="default_dir_was_reset">Default directory has been reset</string>
+    <string name="backup_loaded">Backup is loaded!</string>
+    <string name="share_via">Share via</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+
+    <string name="backup">Backup</string>
+    <string name="create_backup_summary">Choose a path for making backup</string>
+    <string name="create_backup_title">Create a Backup</string>
+    <string name="load_backup_summary">Load backup from local storage</string>
+    <string name="load_backup_title">Load Backup</string>
+    <string name="database">Database</string>
+    <string name="clear_database_summary">Remove All Corrections</string>
+    <string name="clear_database_title">Clear Database</string>
+    <string name="default_title">Change Default Directory</string>
+    <string name="reset_default_dir_title">Reset Default Directory</string>
+
+    <string name="need_read_permission">Need permission to read the internal storage</string>
+    <string name="need_write_permission">Need permission to write to the internal storage</string>
+    <string name="grant_permission_q">Grant Permission?</string>
+</resources>

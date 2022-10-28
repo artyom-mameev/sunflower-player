@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android='http://schemas.android.com/apk/res/android'
+    android:layout_width='fill_parent'
+    android:layout_height='fill_parent'
+    android:orientation='vertical'
+    android:padding='10sp'>
+
+    <EditText
+        android:id="@+id/title_tag"
+        android:layout_width='fill_parent'
+        android:layout_height='wrap_content'
+        android:hint="@string/title"
+        android:singleLine='true'>
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/artist_tag"
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:ems='10'
+        android:hint="@string/artist"
+        android:inputType="textCapSentences"></EditText>
+
+    <EditText
+        android:id="@+id/album_tag"
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:ems='10'
+        android:hint="@string/album"
+        android:inputType="text|textCapSentences"></EditText>
+
+    <CheckBox
+        android:id="@+id/sameAsTitleCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/album_same_as_the_title" />
+
+</LinearLayout>
