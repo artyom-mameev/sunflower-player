@@ -51,7 +51,7 @@ Gradle is used to automatically build the project.
 ## Features
 
 - A simple and intuitive user interface, which alerts the user about errors,
-  warns about the possible irreversibility of operations and informs about the
+  warns about the possible irreversibility of operations, and informs about the
   successful completion of actions, the result of which is not obvious;
 - Users can add tags to video files;
 - A simple file manager for navigating through folders and selecting music
@@ -75,7 +75,7 @@ Gradle is used to automatically build the project.
 - An information about the played videos is picked up by third-party scrobblers
   without any problems;
 - The application works seamlessly with third-party audio equalizers;
-- Support for all popular video formats,
+- Support for all popular video formats;
   see [ExoPlayer documentation](https://exoplayer.dev/supported-formats.html)
   for details.
 
@@ -128,8 +128,8 @@ gradlew test
 
 #### Add new video extensions
 
-By default, only video files with extensions `m4v`, `mp4` and `mkv`, `webm`
-, `ts` and `flv` are supported, but since the application uses the all powerful
+By default, only video files with extensions `m4v`, `mp4` and `mkv`, `webm`,
+`ts` and `flv` are supported, but since the application uses the all powerful
 ExoPlayer functionality, it is also capable of
 playing [files with less popular extensions](https://exoplayer.dev/supported-formats.html).
 To add support for a required extension, simply edit the array in the
@@ -169,19 +169,19 @@ Licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 `PlayerService` code was taken from
 [AndroidAudioExample](https://github.com/SergeyVinyar/AndroidAudioExample)
-which licensed under the
+which is licensed under the
 [MIT License](https://opensource.org/licenses/MIT).
 
 `TreeUriHelper` code was taken from
 [Augendiagnose](https://github.com/jeisfeld/Augendiagnose)
-which licensed under the
+which is licensed under the
 [GPL-2.0 license](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
 
 `MediaStyleHelper` code was taken from
 [ianhanniballake's repository](https://gist.github.com/ianhanniballake/47617ec3488e0257325c).
 
 <a href="https://www.flaticon.com/free-icons/flower" title="flower icons">Flower
-icons are created by Vitaly Gorbachev - Flaticon</a>.
+icons were created by Vitaly Gorbachev - Flaticon</a>.
 
 <a name="contribution"/>
 
