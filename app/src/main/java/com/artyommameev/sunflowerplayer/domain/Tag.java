@@ -3,6 +3,7 @@ package com.artyommameev.sunflowerplayer.domain;
 import org.greenrobot.greendao.annotation.Entity;
 import org.greenrobot.greendao.annotation.Generated;
 import org.greenrobot.greendao.annotation.Id;
+import org.greenrobot.greendao.annotation.Keep;
 
 import lombok.Data;
 import lombok.NonNull;
@@ -52,7 +53,7 @@ public class Tag {
     }
 
     @SuppressWarnings("unused")
-    @Generated(hash = 1605720318)
+    @Keep
     public Tag() {
     }
 
