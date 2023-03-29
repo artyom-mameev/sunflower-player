@@ -40,7 +40,7 @@ import java.util.Objects;
 import lombok.val;
 
 /**
- * A main activity of the application, which represents a file manager in
+ * The main activity of the application, which represents a file manager in
  * which the user can select a {@link VideoClip} to view or edit
  * {@link Tag} information.
  *

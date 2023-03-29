@@ -16,7 +16,7 @@ import lombok.NonNull;
 import lombok.val;
 
 /**
- * A simple file manager with helper functions for working with
+ * A simple file manager with helper functionality for working with
  * {@link VideoClip}s.
  *
  * @author Artyom Mameev
@@ -46,10 +46,10 @@ public class FileManager {
      * Returns all files in the current directory.
      * <p>
      * If any file is a file with one of the extensions specified in
-     * the constant {@link FileManager#VIDEO_EXTENSIONS}, {@link VideoClip}
+     * the constant {@link FileManager#VIDEO_EXTENSIONS}, a {@link VideoClip}
      * is created based on it.
      *
-     * @param comparator a comparator to sort the files.
+     * @param comparator the comparator to sort the files.
      * @return the files in the current directory if they are present,
      * otherwise returns an empty list.
      */
@@ -80,7 +80,7 @@ public class FileManager {
     }
 
     /**
-     * Sets the current directory to the parent directory of the current
+     * Sets the current directory to a parent directory of the current
      * directory.
      */
     public void toParentDirectory() {

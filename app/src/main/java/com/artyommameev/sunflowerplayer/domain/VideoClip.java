@@ -34,12 +34,12 @@ public class VideoClip extends File {
     /**
      * Instantiates a new Video Clip.
      * <p>
-     * Sets the fileName field to the result of {@link File#getName()}.
+     * Sets the file name to the result of {@link File#getName()}.
      * If the file name matches the 'artist - title' pattern, sets the artist
      * and title fields accordingly, otherwise sets artist as 'Unknown Artist'
      * and title as file name without extension.
      *
-     * @param file the file from which new Video Clip should be created.
+     * @param file the file from which the new Video Clip should be created.
      */
     public VideoClip(@NonNull File file) {
         super(file.getAbsolutePath());
@@ -73,7 +73,7 @@ public class VideoClip extends File {
     }
 
     /**
-     * Returns the album name of the video clip.
+     * Returns an album name of the video clip.
      *
      * @return an {@link Optional} of the album name of the video clip.
      */

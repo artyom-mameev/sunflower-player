@@ -44,7 +44,7 @@
     <string name="backup">Backup</string>
     <string name="create_backup_summary">Choose a path for making backup</string>
     <string name="create_backup_title">Create a Backup</string>
-    <string name="load_backup_summary">Load backup from local storage</string>
+    <string name="load_backup_summary">Load backup from the local storage</string>
     <string name="load_backup_title">Load Backup</string>
     <string name="database">Database</string>
     <string name="clear_database_summary">Remove All Corrections</string>
