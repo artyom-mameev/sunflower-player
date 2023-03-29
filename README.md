@@ -4,10 +4,10 @@
 
 **Sunflower Player** is a video player for Android that sends the system
 information about the playing video as a music track, which makes it possible to
-use it as a music video player, easily detected by most scrobbler apps for
+use it as a music video player, easily detected by the most scrobbler apps for
 services like Last.fm. The application has a simple file viewer, is able to
 extract simple tags from the file name, allows to manually create and edit tags,
-contains tools to ease tag creation, and also allows to create a backup of the
+contains tools to ease the tag creation, and also allows to create a backup of the
 database of saved tags. The application has a simple architecture and aims to be
 fast and easy to use. During development, special attention was paid to the
 simplicity and readability of the code, as well as the ease of support. The
@@ -50,7 +50,7 @@ Gradle is used to automatically build the project.
 
 ## Features
 
-- A simple and intuitive user interface, which alerts the user about errors,
+- A simple and intuitive user interface, which alerts the users about errors,
   warns about the possible irreversibility of operations, and informs about the
   successful completion of actions, the result of which is not obvious;
 - Users can add tags to video files;
@@ -96,13 +96,12 @@ Gradle is used to automatically build the project.
 
 - Focus to write simple and readable code;
 - Simple and meaningful names of classes, methods and variables, separation of
-  different aspects of functionality in separate methods;
+  different aspects of functionality to separate methods;
 - The code is accompanied by documentation, with complex points accompanied by
   comments;
-- Division of complex code constructs into several primitive parts for better
-  understanding;
+- Separation of complex code constructs into several primitive parts for better
+  understanding, the code is also separated by purpose;
 - Limiting the number of characters by line width for better readability;
-- Diverse operations are separated by indents;
 - Avoiding "spaghetti code" (nested ifs);
 - Using Lombok to avoid boilerplate code.
 
@@ -156,8 +155,7 @@ for translation.
 
 ## TODO
 
-- [ ] Write integration tests for activities logic and other components for
-  which unit testing is impossible.
+- [ ] Write integration tests for activities logic.
 - [ ] Implement automatic search for tags in the MusicBrainz database.
 
 <a name="license"/>
